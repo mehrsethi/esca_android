@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="diet_preference_array">
+        <item>Ovo-vegetarian</item>
+        <item>Lacto-vegetarian</item>
+        <item>Vegan</item>
+        <item>Vegetarian</item>
+        <item>No preference</item>
+    </string-array>
+</resources>

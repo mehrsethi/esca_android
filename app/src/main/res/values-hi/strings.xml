@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scan">शुरू स्कैनिंग!</string>
+    <string name="edit_profile">प्रोफाइल एडिट करें</string>
+
+    <string name="questionable_ingredients">%1$s में निम्न सामग्रियां हैं जो आपके आहार प्राथमिकताओं से मेल नहीं खाती हैं- </string>
+    <string name="view_all">सभी सामग्री देखें</string>
+    <string name="scan_another">एक और स्कैन करें</string>
+
+    <string name="all_ingredients">इस उत्पाद में- </string>
+    <string name="back">वापस</string>
+
+    <string name="done">ख़त्म!</string>
+
+    <string name="name">नाम: </string>
+    <string name="age">आयु: </string>
+
+    <string name="allergies">आपके पास किसी भी एलर्जी की जांच करें: </string>
+    <string name="milk">दूध</string>
+    <string name="eggs">अंडे</string>
+    <string name="fish">मछली</string>
+    <string name="crustacean">क्रस्टासेन</string>
+    <string name="tree_nut">वृक्ष नट</string>
+    <string name="peanuts">मूंगफली</string>
+    <string name="wheat">गेहूँ</string>
+    <string name="soybeans">सोयाबीन</string>
+    <string name="rice">चावल</string>
+    <string name="garlic">लहसुन</string>
+    <string name="oats">जई</string>
+    <string name="sulfites">सल्फाइट्स</string>
+    <string name="gluten">ग्लूटेन</string>
+
+    <string name="diet_preference">अपना आहार वरीयता चुनें: </string>
+
+    <string name="medical_conditions">आपके पास किसी भी पुरानी चिकित्सा शर्तों की जांच करें: </string>
+    <string name="diabetes">मधुमेह</string>
+    <string name="kidney_diseases">गुर्दा रोग</string>
+    <string name="high_cholesterol">उच्च कोलेस्ट्रॉल</string>
+    <string name="gout">गाउट</string>
+    <string name="celiac_disease">सीलिएक रोग</string>
+    <string name="lactose_intolerance">लैक्टोज असहिष्णुता</string>
+    <string name="osteoporosis">ऑस्टियोपोरोसिस</string>
+
+    <string name="cont">अगला</string>
+    <string name="profile_photo">प्रोफाइल फोटो</string>
+
+    <string name="ok">ठीक</string>
+    <string name="no_camera_permission">यह एप्लिकेशन नहीं चल सकता क्योंकि इसमें कैमरा अनुमति नहीं है। एप्लिकेशन अब बाहर निकल जाएगा।</string>
+
+</resources>

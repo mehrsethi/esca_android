@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scan">¡INICIE EL ESCANEADO!</string>
+    <string name="edit_profile">EDITAR PERFIL</string>
+
+    <string name="questionable_ingredients">%1$s contiene los siguientes ingredientes que no coinciden con sus preferencias dietéticas- </string>
+    <string name="view_all">Ver Todos Los Ingredientes</string>
+    <string name="scan_another">Escanear Otro</string>
+
+    <string name="all_ingredients">Este producto contiene- </string>
+    <string name="back">Regresar</string>
+
+    <string name="done">¡Hecho!</string>
+
+    <string name="name">Nombre: </string>
+    <string name="age">Años: </string>
+
+    <string name="allergies">Verifique cualquier alergia que tenga: </string>
+    <string name="milk">Leche</string>
+    <string name="eggs">Huevos</string>
+    <string name="fish">Peces</string>
+    <string name="crustacean">Crustáceo</string>
+    <string name="tree_nut">Nueces de árbol</string>
+    <string name="peanuts">Miseria</string>
+    <string name="wheat">Trigo</string>
+    <string name="soybeans">Soja</string>
+    <string name="rice">Arroz</string>
+    <string name="garlic">Ajo</string>
+    <string name="oats">Avena</string>
+    <string name="sulfites">Sulfitos</string>
+    <string name="gluten">Gluten</string>
+
+    <string name="diet_preference">Seleccione su preferencia de dieta: </string>
+
+    <string name="medical_conditions">Verifique cualquier condición médica crónica que tenga: </string>
+    <string name="diabetes">Diabetes</string>
+    <string name="kidney_diseases">Enfermedades renales</string>
+    <string name="high_cholesterol">Colesterol alto</string>
+    <string name="gout">Gota</string>
+    <string name="celiac_disease">Enfermedad celíaca</string>
+    <string name="lactose_intolerance">Intolerancia a la lactosa</string>
+    <string name="osteoporosis">Osteoporosis</string>
+
+    <string name="cont">Continuar</string>
+    <string name="profile_photo">Foto de Perfil</string>
+
+    <string name="ok">Bueno</string>
+    <string name="no_camera_permission">Esta aplicación no se puede ejecutar porque no tiene el permiso de la cámara. La aplicación ahora saldrá.</string>
+
+</resources>

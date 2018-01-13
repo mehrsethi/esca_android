@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="diet_preference_array">
+        <item>비만 채식주의 자</item>
+        <item>락토 채식주의 자</item>
+        <item>철저한 채식주의자</item>
+        <item>채식주의 자</item>
+        <item>선호도 없음</item>
+    </string-array>
+</resources>

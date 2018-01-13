@@ -1,0 +1,405 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="itp341.sethi.mehr.finalapp.Controller.Fragments.SignUpFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#45A29E"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C5C6C7"
+                android:minHeight="?attr/actionBarSize"
+                app:titleTextColor="#1F2833">
+            </android.support.v7.widget.Toolbar>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar_sign_up">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/layout"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp">
+
+                    <ImageView
+                        android:id="@+id/image_profile_sign_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height"
+                        android:contentDescription="@string/profile_photo"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/placeholder_profile" />
+
+                    <TextView
+                        android:id="@+id/text_edit_profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/text_edit_profile_image"
+                        android:textSize="22sp"
+                        android:background="#00000000"
+                        android:textColor="#1F2833"
+                        android:gravity="right"
+                        android:padding="5dp"/>
+
+            </RelativeLayout>
+
+                <Button
+                    android:id="@+id/button_profile_sign_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height"
+                    android:layout_alignTop="@+id/layout"
+                    android:layout_alignBottom="@+id/layout"
+                    android:layout_alignStart="@+id/layout"
+                    android:layout_alignEnd="@+id/layout"
+                    android:background="#00000000"/>
+
+                <TextView
+                    android:id="@+id/text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/layout"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_big"
+                    android:layout_marginTop="@dimen/margin_big"
+                    android:text="@string/name"
+                    android:textColor="#1F2833" />
+
+                <EditText
+                    android:id="@+id/edit_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/text_name"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/margin_big"
+                    android:layout_toEndOf="@+id/text_name"
+                    android:textColor="#1F2833"
+                    android:textColorHighlight="#C5C6C7" />
+
+                <TextView
+                    android:id="@+id/text_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/text_name"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_big"
+                    android:layout_marginTop="@dimen/margin_big"
+                    android:text="@string/age"
+                    android:textColor="#1F2833" />
+
+                <EditText
+                    android:id="@+id/edit_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/text_age"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignStart="@+id/edit_name"
+                    android:layout_marginEnd="@dimen/margin_big"
+                    android:layout_toEndOf="@+id/text_age"
+                    android:textColor="#1F2833"
+                    android:textColorHighlight="#C5C6C7" />
+
+                <TextView
+                    android:id="@+id/text_allergies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/text_age"
+                    android:layout_marginEnd="@dimen/margin_big"
+                    android:layout_marginStart="@dimen/margin_big"
+                    android:layout_marginTop="@dimen/margin_big"
+                    android:text="@string/allergies"
+                    android:textColor="#1F2833" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layout_check_1"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/text_allergies"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_small"
+                        android:layout_marginStart="@dimen/margin_big"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <CheckBox
+                            android:id="@+id/milk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/milk"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/peanuts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/peanuts"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/soybeans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/soybeans"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/garlic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/garlic"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/eggs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/eggs"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/wheat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wheat"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/gluten"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/gluten"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_big"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <CheckBox
+                            android:id="@+id/fish"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fish"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/crustacean"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/crustacean"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/tree_nut"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tree_nut"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/oats"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/oats"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/rice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rice"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/sulfites"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sulfites"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_diet_preference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/layout_check_1"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_big"
+                    android:layout_marginTop="@dimen/margin_big"
+                    android:text="@string/diet_preference"
+                    android:textColor="#1F2833" />
+
+                <Spinner
+                    android:id="@+id/spinner_diet_preference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/text_diet_preference"
+                    android:layout_marginEnd="@dimen/margin_big"
+                    android:layout_toEndOf="@+id/text_diet_preference"
+                    android:entries="@array/diet_preference_array"
+                    android:textColor="#1F2833" />
+
+                <TextView
+                    android:id="@+id/text_medical_conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/text_diet_preference"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_big"
+                    android:layout_marginTop="@dimen/margin_big"
+                    android:text="@string/medical_conditions"
+                    android:textColor="#1F2833" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layout_check_2"
+                    android:layout_below="@id/text_medical_conditions"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_small"
+                        android:layout_marginStart="@dimen/margin_big"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <CheckBox
+                            android:id="@+id/diabetes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/diabetes"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/celiac_disease"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/celiac_disease"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/osteoporosis"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/osteoporosis"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/kidney_diseases"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/kidney_diseases"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_check_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_big"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <CheckBox
+                            android:id="@+id/gout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/gout"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/high_cholesterol"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/high_cholesterol"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+
+                        <CheckBox
+                            android:id="@+id/lactose_intolerance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lactose_intolerance"
+                            android:textColor="#1F2833"
+                            android:textColorHighlight="#C5C6C7" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button_continue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/layout_check_2"
+                    android:layout_margin="@dimen/margin_big"
+                    android:background="#1F2833"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:text="@string/cont"
+                    android:textColor="#45A29E" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

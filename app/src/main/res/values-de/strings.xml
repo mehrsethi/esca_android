@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scan">SCANNEN STARTEN!</string>
+    <string name="edit_profile">PROFIL BEARBEITEN</string>
+
+    <string name="questionable_ingredients">%1$s enthält die folgenden zutaten, die nicht ihren diätvorlieben entsprechen- </string>
+    <string name="view_all">Alle Zutaten Anzeigen</string>
+    <string name="scan_another">Scanne Einen Anderen</string>
+
+    <string name="all_ingredients">Dieses produkt enthält- </string>
+    <string name="back">Zurück</string>
+
+    <string name="done">Erledigt!</string>
+
+    <string name="name">Name: </string>
+    <string name="age">Alter: </string>
+
+    <string name="allergies">Überprüfen sie alle allergien, die sie haben: </string>
+    <string name="milk">Milch</string>
+    <string name="eggs">Eier</string>
+    <string name="fish">Fisch</string>
+    <string name="crustacean">Krustentier</string>
+    <string name="tree_nut">Baumnüsse</string>
+    <string name="peanuts">Erdnüsse</string>
+    <string name="wheat">Weizen</string>
+    <string name="soybeans">Sojabohnen</string>
+    <string name="rice">Reis</string>
+    <string name="garlic">Knoblauch</string>
+    <string name="oats">Hafer</string>
+    <string name="sulfites">Sulfite</string>
+    <string name="gluten">Gluten</string>
+
+    <string name="diet_preference">Wählen sie ihre diätvorliebe aus: </string>
+
+    <string name="medical_conditions">Überprüfen sie alle chronischen krankheiten, die sie haben: </string>
+    <string name="diabetes">Diabetes</string>
+    <string name="kidney_diseases">Nierenerkrankungen</string>
+    <string name="high_cholesterol">Hoher cholesterinspiegel</string>
+    <string name="gout">Gicht</string>
+    <string name="celiac_disease">Zöliakie</string>
+    <string name="lactose_intolerance">Laktoseintoleranz</string>
+    <string name="osteoporosis">Osteoporose</string>
+
+    <string name="cont">Fortsetzen</string>
+    <string name="profile_photo">Profilfoto</string>
+
+    <string name="ok">OK</string>
+    <string name="no_camera_permission">Diese anwendung kann nicht ausgeführt werden, da sie nicht über die kameraberechtigung verfügt. Die anwendung wird jetzt beendet.</string>
+
+</resources>

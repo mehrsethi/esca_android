@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="diet_preference_array">
+        <item>ओवो-शाकाहारी</item>
+        <item>लैक्टो-शाकाहारी</item>
+        <item>शुद्ध शाकाहारी</item>
+        <item>शाकाहारी</item>
+        <item>कोई वरीयता नहीं</item>
+    </string-array>
+</resources>

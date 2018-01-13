@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">COMMENCEZ À ANALYSER!</string>
+    <string name="edit_profile">EDITER LE PROFIL</string>
+
+    <string name="questionable_ingredients">%1$s contient les ingrédients suivants qui ne correspondent pas à vos préférences alimentaires- </string>
+    <string name="view_all">Voir Tous Les Ingrédients</string>
+    <string name="scan_another">Scannez un Autre</string>
+
+    <string name="all_ingredients">Ce produit contient- </string>
+    <string name="back">Retourner</string>
+
+    <string name="done">Fini!</string>
+
+    <string name="name">Prénom: </string>
+    <string name="age">Âge: </string>
+
+    <string name="allergies">Vérifiez les allergies que vous avez: </string>
+    <string name="milk">Lait</string>
+    <string name="eggs">Des œufs</string>
+    <string name="fish">Poisson</string>
+    <string name="crustacean">Crustacé</string>
+    <string name="tree_nut">Noix d\'arbre</string>
+    <string name="peanuts">Cacahuètes</string>
+    <string name="wheat">Blé</string>
+    <string name="soybeans">Soja</string>
+    <string name="rice">Riz</string>
+    <string name="garlic">Ail</string>
+    <string name="oats">Avoine</string>
+    <string name="sulfites">Sulfites</string>
+    <string name="gluten">Gluten</string>
+
+    <string name="diet_preference">Sélectionnez votre préférence de régime: </string>
+
+    <string name="medical_conditions">Vérifiez les conditions médicales chroniques que vous avez: </string>
+    <string name="diabetes">Diabète</string>
+    <string name="kidney_diseases">Maladies rénales</string>
+    <string name="high_cholesterol">Taux de cholestérol élevé</string>
+    <string name="gout">Goutte</string>
+    <string name="celiac_disease">Maladie coeliaque</string>
+    <string name="lactose_intolerance">Allergique au lait</string>
+    <string name="osteoporosis">Ostéoporose</string>
+
+    <string name="cont">Continuer</string>
+    <string name="profile_photo">Photo de profil</string>
+
+    <string name="ok">D\'accord</string>
+    <string name="no_camera_permission">Cette application ne peut pas s\'exécuter car elle n\'a pas l\'autorisation de la caméra. L\'application va maintenant quitter.</string>
+</resources>
